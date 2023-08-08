@@ -1,0 +1,77 @@
+Package: libmoorecon12
+Section: Tweaks
+Installed-Size: 212
+Maintainer: tateu (Josh Harris) <tateu@tateu.net>
+Architecture: iphoneos-arm
+Version: 0.9.9.0~beta4-3
+Replaces: libstatusbar
+Provides: libstatusbar
+Depends: firmware (>=11.0), mobilesubstrate, com.rpetrich.rocketbootstrap
+Conflicts: libstatusbar, libmoorecon
+Filename: ./debs/libmoorecon12_0.9.9.0~beta4-3_iphoneos-arm.deb
+Size: 25844
+MD5sum: 66b84a0e83c12cd452ea836399725010
+SHA1: 37fb65f4eb1f434c6d85fa06891cc2d9412a76be
+SHA256: 453d068c841475e15e2de511b17bd9e7cefe2cea8f00a83e1d150439e3d8b6b1
+Description: Based almost 100% on libstatusbar by phoenix3200. This version removes the upper limit CoreFoundation (iOS version) restriction and attempts to keep it from loading inside of non Application processes. Compiled for iOS12.x, arm64 and arm64e.
+Name: libmoorecon12
+Depiction: http://www.tateu.net/repo/html/?p=libmoorecon12
+Author: tateu (Josh Harris) <tateu@tateu.net>
+
+Package: libmoorecon
+Section: Tweaks
+Installed-Size: 177
+Maintainer: tateu (Josh Harris) <tateu@tateu.net>
+Architecture: iphoneos-arm
+Version: 0.9.9.0~beta4-1
+Replaces: libstatusbar
+Provides: libstatusbar
+Depends: firmware (>=9.0), mobilesubstrate, com.rpetrich.rocketbootstrap
+Conflicts: libstatusbar
+Filename: ./debs/libmoorecon_0.9.9.0~beta4-1_iphoneos-arm.deb
+Size: 43570
+MD5sum: 18404e05966d04ab043945225a06c8a2
+SHA1: 75c944bea6a827b94266295fe582717be2b44546
+SHA256: 344cc8df9738cb10cec3bc7df84c72be7293c157cf22160c0b056a80c66a21ce
+Description: Based almost 100% on libstatusbar by phoenix3200. This version is for my personal use and removes the upper limit CoreFoundation (iOS version) restriction and attempts to keep it from loading inside of non Application processes. Compiled for iOS9.x, armv7 and arm64.
+Name: libmoorecon
+Depiction: http://www.tateu.net/repo/html/?p=libmoorecon
+
+Package: net.tateu.moveable9
+Section: Tweaks
+Installed-Size: 390
+Maintainer: Josh Harris (tateu) <tateu@tateu.net>
+Architecture: iphoneos-arm
+Version: 1.0.0~beta9
+Depends: firmware (>=9.0), mobilesubstrate, preferenceloader
+Conflicts: net.tateu.moveable
+Filename: ./debs/net.tateu.moveable9_1.0.0~beta9_iphoneos-arm.deb
+Size: 91562
+MD5sum: fac141fe56fdd181561c36f21ed4406b
+SHA1: f04369639f75f63ac1cfeaa873c912709746f8a0
+SHA256: 3fd86407ae15617e0e9d6aa27f31c64a513021774deef8d95130ed7ac65ba42f
+Description: Arrange statusbar icons.
+Name: Moveable9
+Author: Josh Harris (tateu) <tateu@tateu.net>
+Depiction: http://www.tateu.net/repo/html/moveable9.htm
+Icon: file:///Library/PreferenceBundles/Moveable9.bundle/Moveable9.png
+
+Package: net.tateu.opennotifier9
+Section: Tweaks
+Installed-Size: 1111
+Maintainer: tateu (Josh Harris) <tateu@tateu.net>
+Architecture: iphoneos-arm
+Version: 2.5.0~beta9
+Provides: com.n00neimp0rtant.opennotifier, net.tateu.opennotifier
+Depends: firmware (>=9.0), mobilesubstrate, libstatusbar, preferenceloader, applist
+Conflicts: com.n00neimp0rtant.opennotifier, net.tateu.opennotifier, net.tateu.opennotifierbeta
+Filename: ./debs/net.tateu.opennotifier9_2.5.0~beta9_iphoneos-arm.deb
+Size: 203172
+MD5sum: 86c1436535929fa95b3b35f04d6ab555
+SHA1: 116214ecb2b218150d138bc70bd170cab36e3e76
+SHA256: 5acdaccda36f5e72539ad711230945157a99ad2e1db7be9270fc8e405301022f
+Description: Show Notification Icons in the status bar. Unofficial Beta version for my personal use, compiled for iOS9 and armv7 and arm64.
+Name: OpenNotifier9 - tateu
+Author: tateu (based on n00neimp0rtant) <tateu@tateu.net>
+Depiction: http://www.tateu.net/repo/html/opennotifier9.htm
+
